@@ -10,6 +10,7 @@ namespace ListaLekow
     public class Lek
     {
 		/* hot fix */
+		/* hot fix 2 */
         public string ID { get; set; }
 		public string ID2 { get; set; }
         public string NazwaLeku { get; set; }
