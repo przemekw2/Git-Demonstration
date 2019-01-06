@@ -22,7 +22,7 @@ namespace ListaLekow
         public byte Ilosc { get; set; }
         public bool Wydruk { get; set; }
 
-        public Lek(string id, string nazwaleku, byte ilosc, bool wydruk, double dawkowanierano = 0.0, double dawkowaniepoludnie = 0.0, double dawkowaniepopoludnie = 0.0, double dawkowaniewieczor = 0.0)
+        public Lek(string id, string nazwaleku, byte ilosc, bool wydruk, double dawkowanierano = 0.1, double dawkowaniepoludnie = 0.0, double dawkowaniepopoludnie = 0.0, double dawkowaniewieczor = 0.0)
         {
             this.ID = id;
             this.NazwaLeku = nazwaleku;
