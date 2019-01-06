@@ -9,6 +9,7 @@ namespace ListaLekow
     [Serializable]
     public class Lek
     {
+		/* hot fix */
         public string ID { get; set; }
         public string NazwaLeku { get; set; }
         public double DawkowanieRano { get; set; } = 0.0;
