@@ -10,6 +10,7 @@ namespace ListaLekow
     public class Lek
     {
         public string ID { get; set; }
+		public string ID2 { get; set; }
         public string NazwaLeku { get; set; }
         public double DawkowanieRano { get; set; } = 0.0;
         public double DawkowaniePoludnie { get; set; } = 0.0;
